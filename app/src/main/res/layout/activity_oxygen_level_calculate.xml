@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Oxygen_level_calculate">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oxygen Level Status"
+            android:layout_marginTop="30dp"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+
+
+        <EditText
+            android:id="@+id/etoxygenlevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:background="@drawable/edit_background"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/ic_baseline_timer_24"
+            android:hint="@string/etoxygenlevel" />
+
+
+        <Button
+            android:id="@+id/btncheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="50dp"
+            android:drawableTint="@color/white"
+            android:onClick="guessClicked"
+            android:text="Calculate"
+            android:textSize="18dp"
+            android:background="@drawable/edit_background"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/tvmessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/blue1"
+            android:gravity="center_horizontal"
+            android:hint="@string/tvmessage"
+            android:drawableLeft="@drawable/ic_baseline_sentiment_very_satisfied_24"
+            android:padding="20dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">HealthyRate</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="tv_makeAppo">Make Your Appointment</string>
+    <string name="tv_selectProvince">Select Your Province</string>
+    <string name="btn_central">Central</string>
+    <string name="btn_eastern">Eastern</string>
+    <string name="btn_northCentral">North Central</string>
+    <string name="btn_northern">Northern</string>
+    <string name="btn_northWestern">North Western</string>
+    <string name="btn_sabaragamuwa">Sabaragamuwa</string>
+    <string name="btn_uva">Uva</string>
+    <string name="btn_western">Western</string>
+    <string name="tv_hName">Best Healthy Hospital</string>
+    <string name="tv_dName">Dr. Nimal Perera</string>
+    <string name="tv_avNo">02 (20)</string>
+    <string name="btn_checkBook">Make Appointment</string>
+</resources>

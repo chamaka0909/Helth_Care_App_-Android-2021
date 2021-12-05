@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/sheduleex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rounded"
+        android:drawableRight="@drawable/newexerrrr"
+        android:gravity="center"
+        android:padding="40dp"
+        android:text="Shedule Exercise"
+        android:textAllCaps="false"
+        android:textSize="21dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/calfitness"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rounded"
+        android:drawableLeft="@drawable/newcall"
+        android:gravity="center"
+        android:padding="40dp"
+        android:text="Calculate Fitness"
+        android:textAllCaps="false"
+        android:textSize="21dp"
+        android:textStyle="bold" />
+
+
+
+    </LinearLayout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".appointment_lab">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Get My Lab Report"
+        android:background="@color/purple_500"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+
+
+    <EditText
+        android:id="@+id/txtnic"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:hint="@string/txtttNic" />
+
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:hint="@string/txtttnamee" />
+
+
+    <TextView
+        android:id="@+id/txtdatell"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:hint="@string/txthdatee"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/txttimel"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:hint="@string/txtthTime"
+        android:textSize="18dp" />
+
+
+    <EditText
+        android:id="@+id/txtagel"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:inputType="number"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:hint="@string/txttagee" />
+
+
+    <EditText
+        android:id="@+id/txtblood"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:hint="@string/txttBoold" />
+
+
+    <EditText
+        android:id="@+id/txtsuf"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:hint="@string/txtsufff" />
+
+
+    <EditText
+        android:id="@+id/txtcon"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:hint="@string/txtttcon" />
+
+
+    <Button
+        android:id="@+id/btnaddap"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:onClick="CreateData"
+        android:text="Add Appoinment"
+        android:textAllCaps="false"
+        android:textSize="21dp" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:onClick="showData"
+        android:text="Show my appointment"
+        android:textAllCaps="false"
+        android:textSize="21dp" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:onClick="update"
+        android:text="Update my appointment"
+        android:textAllCaps="false"
+        android:textSize="21dp" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/rounded"
+        android:gravity="center"
+        android:onClick="deleteData"
+        android:text="Delete my appointment"
+        android:textAllCaps="false"
+        android:textSize="21dp" />
+
+
+
+
+
+
+
+
+</LinearLayout>
